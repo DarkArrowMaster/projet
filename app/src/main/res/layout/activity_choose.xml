@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.maste.projet.ChooseActivity"
+    android:background="#2962ff">
+
+    <TextView
+        android:text="Salle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="60dp"
+        android:textAllCaps="false"
+        android:id="@+id/titre_choose"
+        android:textColor="#82b1ff"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:divider="@android:color/background_light"
+        android:id="@+id/list"
+        android:layout_below="@+id/titre_choose"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/list">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperation data web"
+        android:textColor="#82b1ff"
+        android:textAllCaps="false"
+        android:id="@+id/syncho"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:text = "Tranfert data web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tranfert"
+        android:textColor="#82b1ff"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        />
+
+    </LinearLayout>
+</RelativeLayout>

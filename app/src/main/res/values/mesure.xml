@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="salle">
+        <item>A 160</item>
+        <item>A 192</item>
+    </string-array>
+    <string-array name="temperature">
+        <item>37</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="date">
+        <item>06/10/2016</item>
+        <item>06/10/2016</item>
+    </string-array>
+
+</resources>
